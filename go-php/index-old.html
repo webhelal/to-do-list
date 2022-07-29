@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="line">
+            <div class="title">
+                <h2>Task-1</h2>
+            </div>
+            <div class="tasks">
+                <i class="fa-solid fa-keyboard"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <i class="fa-solid fa-pen-clip"></i>
+                <i class="fa-solid fa-newspaper"></i>
+            </div>
+        </div>
+
+        <div class="line">
+            <div class="title">
+                <h2>Task-2</h2>
+            </div>
+            <div class="tasks">
+                <i class="fa-solid fa-keyboard"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <i class="fa-solid fa-pen-clip"></i>
+                <i class="fa-solid fa-newspaper"></i>
+            </div>
+        </div>
+
+        <div class="line">
+            <div class="title">
+                <h2>Task-3</h2>
+            </div>
+            <div class="tasks">
+                <i class="fa-solid fa-keyboard"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <i class="fa-solid fa-pen-clip"></i>
+                <i class="fa-solid fa-newspaper"></i>
+            </div>
+        </div>
+
+        <div class="line">
+            <div class="title">
+                <h2>Task-4</h2>
+            </div>
+            <div class="tasks">
+                <i class="fa-solid fa-keyboard"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <i class="fa-solid fa-pen-clip"></i>
+                <i class="fa-solid fa-newspaper"></i>
+            </div>
+        </div>
+
+        <div class="line">
+            <div class="title">
+                <h2>Task-5</h2>
+            </div>
+            <div class="tasks">
+                <i onclick="check()" id="gogo" class="fa-solid fa-keyboard"></i>
+                <i onclick="check()" id="gogo" class="fa-solid fa-desktop"></i>
+                <i onclick="check()" id="gogo" class="fa-solid fa-chalkboard-user"></i>
+                <i onclick="check()" id="gogo" class="fa-solid fa-pen-clip"></i>
+                <i onclick="check()" id="gogo" class="fa-solid fa-newspaper"></i>
+            </div>
+        </div>
+
+    </div>
+    <button>cleck</button>
+    <script>
+        let element = document.getElementById("gogo");
+
+        function check() {
+            var element = document.getElementById("gogo");
+            element.classList.toggle("my");
+        }
+    </script>
+
+</body>
+
+</html>
